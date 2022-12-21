@@ -1,0 +1,12 @@
+@media (max-width: 375px) {
+    .header > ul li {
+        display: none;
+    }
+
+    .header button {
+        display: block;
+        background-color: transparent;
+        padding: 10px;
+        border: none;
+    }
+}
