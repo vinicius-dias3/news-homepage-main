@@ -28,8 +28,14 @@
     </header>
 
     <main class="main">
-      <div class="container-img"></div>
-      <!-- UTILIZAR O SOURCE PARA TROCAR A IMAGEM COM A IMAGEM PARA TELAS PEQUENAS -->
+      <div class="container-img">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./src/images/image-web-3-mobile.jpg">
+          <img src="./src/images/image-web-3-desktop.jpg" alt="">
+          </source>
+        </picture>
+      </div>
+      
       <h1>The Bright Future of Web 3.0?</h1>
       <div class="container-text">
         <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>

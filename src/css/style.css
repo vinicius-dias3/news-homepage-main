@@ -26,6 +26,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    width: 100%;
 }
 
 .header > ul li {
@@ -55,9 +56,6 @@ body {
 .main .container-img {
     grid-area: 1 / 1 / 2 / span 2;
     height: 350px;
-    background: url(../images/image-web-3-desktop.jpg);
-    background-size: cover;
-    background-position: center center;
 }
 
 .main .container-img img {
@@ -97,8 +95,6 @@ body {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 4px;
-    border: none;
-    outline: none;
     font-family: 'Inter-Bold';
     transition: all .2s ease;
     margin-top: 2em;
