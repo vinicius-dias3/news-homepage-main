@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Homepage Main2</title>
+    <title>News Homepage Main</title>
     <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <a href="#"><img src="./src/images/logo.svg" alt="Logo"></a>
+            <a href="#"><img class="logo" src="./src/images/logo.svg" alt="Logo"></a>
 
             <ul>
                 <li><a href="#">Home</a></li>
@@ -32,16 +33,11 @@
         </header>
 
         <div class="imagem">
-            <!-- <picture>
-                <source media="(max-width: 600px)" srcset="./src/images/image-web-3-mobile.jpg">
-                <img src="./src/images/image-web-3-desktop.jpg" alt="imagem">
-                </source>
-            </picture> -->
             <img class="img-mobile" src="./src/images/image-web-3-mobile.jpg" alt="image-mobile">
             <img class="img-desktop" src="./src/images/image-web-3-desktop.jpg" alt="image-desktop">
         </div>
 
-        <div class="titulo">
+        <div class="title">
             <h1>The Bright Future of Web 3.0?</h1>
         </div>
 
@@ -50,7 +46,7 @@
             <a>Read more</a>
         </div>
 
-        <div class="lateral">
+        <div class="summary">
             <h2>New</h2>
             
             <div class="item">
@@ -69,8 +65,8 @@
             </div>
             
         </div>
-
-        <div class="rodape">
+        
+        <aside class="aside">
             <div class="item">
                 <img src="./src/images/image-retro-pcs.jpg" alt="pc retro">
                 <div class="content">
@@ -97,7 +93,7 @@
                   <p>How the pandemic has sparked fresh opportunities.</p>
                 </div>
             </div>
-        </div>
+        </aside>
 
         <footer class="footer">
             <p>Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>Coded by<a href="https://github.com/vinicius-dias3" target="_blank">Vinicius Dias.</a></p>

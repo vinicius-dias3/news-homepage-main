@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(36, 100%, 99%);
+    background-color: var(--off-white);
     display: flex;
     justify-content: center;
 }
@@ -10,7 +10,7 @@ body {
     font-family: 'Inter', sans-serif;
     max-width: 1400px;
     padding: 2em 4em;
-    color: hsl(236, 13%, 42%);
+    color: var(--dark-grayish-blue);
 }
     
 .container .header {
@@ -26,13 +26,13 @@ body {
 }
 
 .header a {
-    color: hsl(236, 13%, 42%);
+    color: var(--dark-grayish-blue);
     transition: color .1s ease-in-out;
 }
 
 .header a:hover {
     cursor: pointer;
-    color: hsl(5, 85%, 63%);
+    color: var(--soft-red);
 }
 
 .header .menu-button {
@@ -53,16 +53,16 @@ body {
     width: 100%;
 }
 
-.container .titulo {
+.container .title {
     grid-area: 3 / 1 / 4 / 2;
 }
 
-.container .titulo h1 {
+.container .title h1 {
     font-size: 2.8em;
     line-height: 1.1;
     letter-spacing: 3px;
     width: 70%;
-    color: hsl(240, 100%, 5%);
+    color: var(--very-dark-blue);
 }
 
 .container .text {
@@ -77,7 +77,7 @@ body {
 .container .text a {
     display: block;
     margin-top: 1.7em;
-    color: hsl(36, 100%, 99%);
+    color: var(--off-white);
     background-color: hsl(5, 85%, 63%);
     width: 180px;
     padding: 12px 20px;
@@ -88,84 +88,84 @@ body {
 }
 
 .container .text a:hover {
-    background-color:hsl(240, 100%, 5%);
+    background-color: var(--very-dark-blue);
     cursor: pointer;
 }
 
-.container .lateral {
+.container .summary {
     grid-area: 2 / 3 / 4 / 4;
-    background-color: hsl(240, 100%, 5%);
+    background-color: var(--very-dark-blue);
     padding: 15px 28px;
 }
 
-.container .lateral h2 {
-    font-size: 2.2em;
-    color: hsl(35, 77%, 62%);
-    margin-bottom: 1em;
+.container .summary h2 {
+font-size: 2.2em;
+color: var(--soft-orange);
+margin-bottom: 1em;
 }
 
-.container .lateral .item {
+.container .summary .item {
     padding: 2em 0;    
 }
 
-.container .lateral .item:nth-child(odd) {
-    border-top: 1px solid hsl(36, 100%, 99%);
-    border-bottom: 1px solid hsl(36, 100%, 99%);
+.container .summary .item:nth-child(odd) {
+    border-top: 1px solid var(--off-white);
+    border-bottom: 1px solid var(--off-white);
 }
 
-.container .lateral .item h3 {
+.container .summary .item h3 {
     color: #fff;
     transition: color .2s ease;
 }
 
-.container .lateral .item h3:hover {
-    color: hsl(35, 77%, 62%);
+.container .summary .item h3:hover {
+    color: var(--soft-orange);
 }
 
-.container .lateral .item p {
+.container .summary .item p {
     margin-top: 1em;
     line-height: 1.7;
 }
 
-.container .rodape {
+.container .aside {
     grid-area: 4 / 1 / 5 / 4;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1.8em;
 }
 
-.container .rodape .item {
+.container .aside .item {
     display: flex;
     gap: 2em;
 }
 
-.container .rodape .item img {
+.container .aside .item img {
     width: 100px;
 }
 
-.container .rodape .item .content {
+.container .aside .item .content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.container .rodape .item .content h3 {
+.container .aside .item .content h3 {
     font-size: 2em;
-    color:hsl(237, 10%, 60%)
+    color:hsl(237, 10%, 60%);
 }
 
-.container .rodape .item .content h4 {
+.container .aside .item .content h4 {
     font-size: 1.2em;
-    color: hsl(240, 100%, 5%);
+    color: var(--very-dark-blue);
     transition: color .25s ease;
 }
 
-.container .rodape .item .content h4:hover {
-    color: hsl(5, 85%, 63%);
+.container .aside .item .content h4:hover {
+    color: var(--soft-red);
     cursor: pointer;
 }
 
-.container .rodape .item .content p {
+.container .aside .item .content p {
     line-height: 1.4;
     width: 230px;
 }
