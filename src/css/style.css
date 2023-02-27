@@ -1,5 +1,5 @@
 body {
-    background-color: var(--off-white);
+    background-color: var(--neutral);
     display: flex;
     justify-content: center;
 }
@@ -10,7 +10,7 @@ body {
     font-family: 'Inter', sans-serif;
     max-width: 1400px;
     padding: 2em 4em;
-    color: var(--dark-grayish-blue);
+    color: var(--primary-text-color);
 }
     
 .container .header {
@@ -26,13 +26,13 @@ body {
 }
 
 .header a {
-    color: var(--dark-grayish-blue);
+    color: var(--primary-text-color);
     transition: color .1s ease-in-out;
 }
 
 .header a:hover {
     cursor: pointer;
-    color: var(--soft-red);
+    color: var(--destaque-3);
 }
 
 .header .menu-button {
@@ -62,7 +62,7 @@ body {
     line-height: 1.1;
     letter-spacing: 3px;
     width: 70%;
-    color: var(--very-dark-blue);
+    color: var(--destaque-1);
 }
 
 .container .text {
@@ -77,8 +77,8 @@ body {
 .container .text a {
     display: block;
     margin-top: 1.7em;
-    color: var(--off-white);
-    background-color: hsl(5, 85%, 63%);
+    color: var(--neutral);
+    background-color: var(--destaque-3);
     width: 180px;
     padding: 12px 20px;
     text-transform: uppercase;
@@ -88,19 +88,19 @@ body {
 }
 
 .container .text a:hover {
-    background-color: var(--very-dark-blue);
+    background-color: var(--destaque-1);
     cursor: pointer;
 }
 
 .container .summary {
     grid-area: 2 / 3 / 4 / 4;
-    background-color: var(--very-dark-blue);
+    background-color: var(--destaque-1);
     padding: 15px 28px;
 }
 
 .container .summary h2 {
 font-size: 2.2em;
-color: var(--soft-orange);
+color: var(--destaque-2);
 margin-bottom: 1em;
 }
 
@@ -109,8 +109,8 @@ margin-bottom: 1em;
 }
 
 .container .summary .item:nth-child(odd) {
-    border-top: 1px solid var(--off-white);
-    border-bottom: 1px solid var(--off-white);
+    border-top: 1px solid var(--neutral);
+    border-bottom: 1px solid var(--neutral);
 }
 
 .container .summary .item h3 {
@@ -119,7 +119,7 @@ margin-bottom: 1em;
 }
 
 .container .summary .item h3:hover {
-    color: var(--soft-orange);
+    color: var(--destaque-2);
 }
 
 .container .summary .item p {
@@ -156,12 +156,12 @@ margin-bottom: 1em;
 
 .container .aside .item .content h4 {
     font-size: 1.2em;
-    color: var(--very-dark-blue);
+    color: var(--destaque-1);
     transition: color .25s ease;
 }
 
 .container .aside .item .content h4:hover {
-    color: var(--soft-red);
+    color: var(--destaque-3);
     cursor: pointer;
 }
 
