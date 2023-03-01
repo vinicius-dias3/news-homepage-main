@@ -21,44 +21,40 @@
         display: none;
     }
 
-    .header .menu-button {
-        display: inline-block;
-    }
-
-    .container .titulo {
+    .container .title {
         margin: 1em 0;
     }
 
-    .container .titulo h1 {
+    .container .title h1 {
         font-size: 2.2em;
         width: 90%;
     }
 
-    .container .lateral {
+    .container .summary {
         margin: 2.5em 0;
         padding: 10px 20px;
     }
 
-    .container .lateral h2 {
+    .container .summary h2 {
         font-size: 1.8em;
     }
 
-    .container .rodape {
+    .container .aside {
         display: flex;
         flex-direction: column;
         gap: 2em;
     }
 
-    .container .rodape .item .content h3 {
+    .container .aside .item .content h3 {
         font-size: 1.8em;
     }
 
-    .container .rodape .item .content p {
+    .container .aside .item .content p {
         width: 100%;
     }
 
     .container .footer {
-        margin: 2em -.8em 0 -.8em
+        margin: 3em -.8em 0 -.8em;
     }
     
 }

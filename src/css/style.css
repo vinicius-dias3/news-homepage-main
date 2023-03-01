@@ -1,7 +1,5 @@
 body {
     background-color: var(--neutral);
-    display: flex;
-    justify-content: center;
 }
 
 .container {
@@ -18,11 +16,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #cdcd3c;
 }
 
-.header li {
-    display: inline-block;
-    margin-left: 3.5em;
+.header nav ul{
+    display: flex;
+}
+
+.header li a{
+    margin-left: 3.5em; 
 }
 
 .header a {
@@ -33,10 +35,6 @@ body {
 .header a:hover {
     cursor: pointer;
     color: var(--destaque-3);
-}
-
-.header .menu-button {
-    display: none;
 }
 
 .container .imagem {
