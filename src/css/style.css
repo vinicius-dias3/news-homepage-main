@@ -16,7 +16,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #cdcd3c;
 }
 
 .header nav ul{
